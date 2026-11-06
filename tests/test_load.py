@@ -5,6 +5,7 @@ import pytest
 
 from src import load
 from src.db import conectar, consultar, criar_esquema
+from src.evaluate import avaliar
 from src.extract import lotes_pendentes
 from src.load import carregar_dimensoes, montar_dim_data, processar_lote
 
@@ -75,6 +76,17 @@ def test_lote_com_falha_nao_deixa_nada_no_banco(tmp_path, monkeypatch):
         processar_lote(conexao, *lote, hubs)
     for tabela in ["fato_evento", "remessa", "fato_entrega", "etl_lote"]:
         assert conexao.execute(f"SELECT COUNT(*) FROM {tabela}").fetchone()[0] == 0, tabela
+
+
+def test_resultado_confere_com_o_gabarito(carga_completa):
+    resultado = avaliar(carga_completa[0]).set_index("verificacao")["remessas"]
+    assert resultado["Remessas no warehouse"] == resultado["Remessas no gabarito"]
+    assert resultado["Data limite correta"] == resultado["Remessas no gabarito"]
+    assert resultado["Entregas com data local correta"] == resultado["Entregas conferidas"]
+    assert resultado["Entregas com situação de prazo correta"] == resultado["Entregas conferidas"]
+    divergentes = resultado["Remessas no gabarito"] - resultado["Status igual ao real"]
+    assert divergentes == (resultado["Status divergente: evento final em quarentena"]
+                           + resultado["Status divergente: evento final ainda não chegou no corte"])
 
 
 def test_sequencia_de_dias_uteis():

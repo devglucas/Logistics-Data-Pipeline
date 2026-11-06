@@ -1,4 +1,5 @@
 -- Volume e OTD por semana, com média móvel de 4 semanas e acumulado (molduras de janela).
+-- Só semanas completas no corte: a semana em andamento tem poucas entregas, todas rápidas.
 WITH semanal AS (
     SELECT d.ano_semana,
            COUNT(*)                                                       AS entregues,
@@ -6,6 +7,7 @@ WITH semanal AS (
     FROM fato_entrega f
     JOIN dim_data d ON d.data = f.data_entrega_local
     WHERE f.status_atual = 'entregue'
+      AND date(d.ano_semana, '+6 days') <= (SELECT MAX(dt) FROM etl_lote)
     GROUP BY d.ano_semana
 )
 SELECT ano_semana, entregues, ROUND(otd_pct, 2) AS otd_pct,
