@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Banco gerado pelo pipeline (recriado com `python main.py`)
+data/warehouse/*
+!data/warehouse/.gitkeep
+
+# SO / editores
+.DS_Store
+.vscode/
+.idea/
