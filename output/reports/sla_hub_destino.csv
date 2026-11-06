@@ -1,0 +1,13 @@
+hub_destino,cidade,regiao,operador,entregues,otd_pct,pct_tentativa_falha,pior_otd_geral,pior_otd_no_operador
+REC,Recife,Nordeste,parceira,475,88.21,21.26,1,1
+BHZ,Belo Horizonte,Sudeste,propria,740,88.65,10.68,2,1
+RIO,Rio de Janeiro,Sudeste,propria,1012,88.83,9.88,3,2
+FOR,Fortaleza,Nordeste,parceira,417,93.29,17.99,4,2
+POA,Porto Alegre,Sul,propria,652,93.56,9.66,5,3
+CGB,Cuiabá,Centro-Oeste,propria,276,94.2,6.88,6,4
+SAO,Guarulhos,Sudeste,propria,1672,94.44,10.35,7,5
+RBR,Rio Branco,Norte,parceira,127,94.49,25.2,8,3
+SSA,Salvador,Nordeste,parceira,578,95.33,22.66,9,4
+CWB,Curitiba,Sul,propria,698,95.42,11.17,10,6
+MAO,Manaus,Norte,parceira,275,96.36,16.73,11,5
+BSB,Brasília,Centro-Oeste,propria,494,97.37,8.5,12,7

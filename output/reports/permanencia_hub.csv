@@ -1,0 +1,13 @@
+hub_id,cidade,operador,passagens,horas_medias,horas_maximas,ranking_gargalo
+REC,Recife,parceira,617,36.7,164.5,1
+RBR,Rio Branco,parceira,128,34.6,79.4,2
+FOR,Fortaleza,parceira,500,31.4,81.6,3
+SSA,Salvador,parceira,738,30.2,87.7,4
+MAO,Manaus,parceira,354,29.3,83.9,5
+CGB,Cuiabá,propria,431,22.5,62.9,6
+RIO,Rio de Janeiro,propria,1804,21.2,78.3,7
+POA,Porto Alegre,propria,1219,20.7,70.0,8
+BHZ,Belo Horizonte,propria,1433,20.2,87.1,9
+CWB,Curitiba,propria,1506,19.3,82.0,10
+BSB,Brasília,propria,1190,17.3,83.0,11
+SAO,Guarulhos,propria,6871,12.9,85.6,12

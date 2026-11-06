@@ -1,0 +1,12 @@
+teste,severidade,falhas,passou
+entrega_antes_da_postagem,critica,0,True
+evento_repetido,critica,0,True
+lacuna_de_lotes,critica,0,True
+limite_em_dia_nao_util,critica,0,True
+remessa_sem_fato,critica,0,True
+situacao_incoerente,critica,0,True
+evento_depois_da_entrega,alerta,0,True
+eventos_orfaos,alerta,0,True
+peso_invalido,alerta,18,False
+registros_em_quarentena,alerta,229,False
+saiu_para_entrega_sem_desfecho,alerta,28,False

@@ -1,0 +1,16 @@
+cliente_id,nome,segmento,entregues,otd_pct,frete,ranking
+C0128,Loja Virtual 0128,Eletrônicos,44,81.82,1826.15,1
+C0151,Loja Virtual 0151,Livros,36,83.33,1452.3,2
+C0088,Loja Virtual 0088,Livros,44,86.36,1734.94,3
+C0008,Loja Virtual 0008,Livros,37,86.49,1475.88,4
+C0117,Loja Virtual 0117,Eletrônicos,52,86.54,2168.69,5
+C0161,Loja Virtual 0161,Casa,39,87.18,1613.51,6
+C0035,Loja Virtual 0035,Moda,40,87.5,1663.8,7
+C0048,Loja Virtual 0048,Casa,41,87.8,1667.81,8
+C0064,Loja Virtual 0064,Livros,35,88.57,1440.22,9
+C0069,Loja Virtual 0069,Livros,35,88.57,1398.66,9
+C0055,Loja Virtual 0055,Casa,131,89.31,5439.29,10
+C0145,Loja Virtual 0145,Moda,57,89.47,2222.51,11
+C0109,Loja Virtual 0109,Livros,105,89.52,4183.49,12
+C0120,Loja Virtual 0120,Moda,86,89.53,3531.38,13
+C0057,Loja Virtual 0057,Eletrônicos,62,90.32,2473.7,14
