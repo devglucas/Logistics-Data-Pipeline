@@ -1,0 +1,13 @@
+codigo,cidade,uf,regiao,fuso,operador
+SAO,Guarulhos,SP,Sudeste,America/Sao_Paulo,propria
+RIO,Rio de Janeiro,RJ,Sudeste,America/Sao_Paulo,propria
+BHZ,Belo Horizonte,MG,Sudeste,America/Sao_Paulo,propria
+CWB,Curitiba,PR,Sul,America/Sao_Paulo,propria
+POA,Porto Alegre,RS,Sul,America/Sao_Paulo,propria
+BSB,Brasília,DF,Centro-Oeste,America/Sao_Paulo,propria
+CGB,Cuiabá,MT,Centro-Oeste,America/Cuiaba,propria
+SSA,Salvador,BA,Nordeste,America/Bahia,parceira
+REC,Recife,PE,Nordeste,America/Recife,parceira
+FOR,Fortaleza,CE,Nordeste,America/Fortaleza,parceira
+MAO,Manaus,AM,Norte,America/Manaus,parceira
+RBR,Rio Branco,AC,Norte,America/Rio_Branco,parceira

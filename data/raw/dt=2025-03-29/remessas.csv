@@ -1,0 +1,2 @@
+remessa_id,cliente_id,servico,hub_origem,hub_destino,cep_destino,peso_kg,valor_frete,postado_em,atualizado_em
+BR0115428,C0034,STD,SAO,BSB,52259-918,1.1,36.31,2025-03-28 11:14:25,2025-03-28 11:14:25

@@ -1,0 +1,2 @@
+remessa_id,cliente_id,servico,hub_origem,hub_destino,cep_destino,peso_kg,valor_frete,postado_em,atualizado_em
+BR0108441,C0085,Econômico,SAO,CWB,09410-388,"0,75",31.07,2025-02-15 11:54:05,2025-02-15 11:54:05

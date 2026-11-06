@@ -1,0 +1,3 @@
+remessa_id,cliente_id,servico,hub_origem,hub_destino,cep_destino,peso_kg,valor_frete,postado_em,atualizado_em
+BR0115311,C0154,expresso,RIO,CWB,49635533,10.55,61.98,2025-03-28 15:18:26,2025-03-31 10:00:00
+BR0115387,C0103,expresso,BHZ,BHZ,76874-938,1.79,43.36,2025-03-28 10:38:18,2025-03-31 10:00:00

@@ -1,0 +1,2 @@
+remessa_id,cliente_id,servico,hub_origem,hub_destino,cep_destino,peso_kg,valor_frete,postado_em,atualizado_em
+BR0103304,C0187,STD,CWB,SSA,06420741,6.95,51.98,2025-01-18 11:26:45,2025-01-19 10:00:00

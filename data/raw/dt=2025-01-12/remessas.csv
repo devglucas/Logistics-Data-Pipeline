@@ -1,0 +1,4 @@
+remessa_id,cliente_id,servico,hub_origem,hub_destino,cep_destino,peso_kg,valor_frete,postado_em,atualizado_em
+BR0101436,C0021,STD,RIO,RIO,79181890,2.56,35.08,2025-01-09 08:01:38,2025-01-12 10:00:00
+BR0101529,C0056,Econômico,SAO,BSB,90279154,0.28,29.94,2025-01-09 09:59:29,2025-01-12 10:00:00
+BR0101702,C0160,EXP,SAO,FOR,36133-462,0.97,49.41,2025-01-10 08:16:37,2025-01-12 10:00:00

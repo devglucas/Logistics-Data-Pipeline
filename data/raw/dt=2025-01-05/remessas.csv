@@ -1,0 +1,2 @@
+remessa_id,cliente_id,servico,hub_origem,hub_destino,cep_destino,peso_kg,valor_frete,postado_em,atualizado_em
+BR0100568,C0142,ECO,BHZ,SAO,99529402,"3,29",32.91,2025-01-04 15:30:36,2025-01-04 15:30:36

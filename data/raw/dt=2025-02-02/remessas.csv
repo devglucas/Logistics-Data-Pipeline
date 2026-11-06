@@ -1,0 +1,2 @@
+remessa_id,cliente_id,servico,hub_origem,hub_destino,cep_destino,peso_kg,valor_frete,postado_em,atualizado_em
+BR0105672,C0133,Econômico,POA,SSA,72500923,0.29,37.07,2025-01-31 14:41:50,2025-02-02 10:00:00

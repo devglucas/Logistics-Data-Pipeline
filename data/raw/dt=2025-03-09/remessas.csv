@@ -1,0 +1,4 @@
+remessa_id,cliente_id,servico,hub_origem,hub_destino,cep_destino,peso_kg,valor_frete,postado_em,atualizado_em
+BR0111396,C0012,Expresso,MAO,BHZ,82398-179,1.95,53.96,2025-03-07 13:20:58,2025-03-09 10:00:00
+BR0111555,C0057,PADRAO,SAO,RIO,20665811,5.47,40.18,2025-03-07 16:24:34,2025-03-09 10:00:00
+BR0111690,C0056,economico,CWB,FOR,44907-176,8.24,51.43,2025-03-08 17:14:44,2025-03-09 10:00:00

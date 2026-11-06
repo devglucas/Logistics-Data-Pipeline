@@ -1,0 +1,3 @@
+remessa_id,cliente_id,servico,hub_origem,hub_destino,cep_destino,peso_kg,valor_frete,postado_em,atualizado_em
+BR0110429,C0099,expresso,SAO,SSA,67395668,2.27,51.89,2025-02-27 12:54:55,2025-03-02 10:00:00
+BR0110801,C0078,padrao,BHZ,SAO,77273371,4.15,37.43,2025-03-01 08:14:28,2025-03-02 10:00:00

@@ -1,0 +1,3 @@
+remessa_id,cliente_id,servico,hub_origem,hub_destino,cep_destino,peso_kg,valor_frete,postado_em,atualizado_em
+BR0112524,C0109,Econômico,RIO,CWB,55318-283,1.03,31.54,2025-03-13 10:25:51,2025-03-16 10:00:00
+BR0113012,C0187,PADRAO,SAO,CWB,82526494,"4,74",43.95,2025-03-15 15:14:10,2025-03-15 15:14:10
